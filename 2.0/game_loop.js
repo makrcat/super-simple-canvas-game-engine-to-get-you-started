@@ -43,7 +43,6 @@ export function gameLoop() {
     square.x -= 5;
   }
 
-  //@ts-ignore
   if ((isKeyDown["ArrowRight"] || isKeyDown["d"]) && square.rightEdge < canvas.width) {
     square.x += 5;
   }
@@ -52,7 +51,6 @@ export function gameLoop() {
     square.y -= 5;
   }
 
-  //@ts-ignore
   if ((isKeyDown["ArrowDown"] || isKeyDown["s"]) && square.bottomEdge < canvas.height) {
     square.y += 5;
   }
